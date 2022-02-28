@@ -4,7 +4,3 @@ body{
 	 background-attachment: fixed;
 	 color:#fff;
     }
-
-h1{
-   text-align:center;
-   }
