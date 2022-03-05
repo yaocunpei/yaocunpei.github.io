@@ -1,6 +1,6 @@
 body{
      background-image:url("../img/1.jpg");
-     background-size:1600px 900px;
+     background-size:cover;
 	 background-attachment: fixed;
 	 color:#fff;
     }
@@ -13,15 +13,20 @@ div.a{
        margin:0 300px;
        
 	   }
+ul{
+	margin:10px 350px;
+}
 li{
     list-style-type:none;
-    float:right;
+    
+	display: inline;
 	margin:10px 10px 10px 10px;
 	font-size:22px;
 	}
 nav{
-	margin-top:-8px;
-	margin-right:300px;
+	text-align: right;
+    border-bottom:1px solid;
+	width: 100%;
     }
 hr{
 	color:#fff;
@@ -30,3 +35,13 @@ hr{
 }
 p{
 	font-size:22px}
+
+.dw,a{
+	position:fixed;
+	right:10px;
+	bottom:50%;
+	display: inline;
+	background-color:#aaffff;
+	text-decoration:none;
+	padding:5px;
+}

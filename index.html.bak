@@ -5,7 +5,6 @@
 </head>
 <title>提瓦特大陆</title>
 <body>
-	<p class="dw"><a href="#dw">回去</a></p>
 <div>
     <div>
 	     <nav>
@@ -19,8 +18,8 @@
 	
 	<br/>
 	<br/>
-
-    <div class="a" id="dw">
+	<hr/>
+    <div class="a">
          <h1>你好，旅行者</h1>
          <h1>欢迎来到我的世界！</h1>
     </div>
