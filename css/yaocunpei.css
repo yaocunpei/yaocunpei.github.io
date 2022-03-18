@@ -52,6 +52,7 @@ img.portrait{
 img.contact{
 	width: 35px;
 	height: 35px;
+	margin-right:10px;
 }
 h1.name{
 	font-size: 2.5em;
