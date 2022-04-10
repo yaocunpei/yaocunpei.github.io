@@ -1,0 +1,35 @@
+body
+{
+	background-image:url('../img/R-C.png');
+	background-size: 100%;
+}
+.hread
+{
+
+	position: absolute;
+	top:20%;
+	right:33%;
+	color: #FFFFFF;
+	font-size: 3em;
+}
+.hread1
+{
+	top: 32%;
+	right: 35%;
+	font-size: 1.8em;
+}
+.a1
+{
+	top:45%;
+	right: 44%;
+	font-size: 1.5em;
+	border: #00ffff solid 2px;
+	text-decoration: none;
+	padding: 0.3125rem 0.4375rem 0.3125rem 0.7rem;
+	border-radius: 5px;
+	background-color: #00FFFF88;
+}
+.a1:hover
+{
+	background-color: #0FBEB3;
+}
