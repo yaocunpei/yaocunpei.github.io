@@ -1,35 +1,71 @@
 body
 {
-	background-image:url('../img/R-C.png');
+	background-image: url('../img/背景.png');
 	background-size: 100%;
+	background-attachment: fixed;
+	margin: 0;
+	
 }
-.hread
+.body
 {
+	background-color: #00000022;
+	margin: 0;
+}
+.nav
+{
+	height: 4.6875rem;
+	padding: 0 2.5em;
 
-	position: absolute;
-	top:20%;
-	right:33%;
-	color: #FFFFFF;
-	font-size: 3em;
 }
-.hread1
+span
 {
-	top: 32%;
-	right: 35%;
-	font-size: 1.8em;
+	display: inline-block;
 }
-.a1
+div.head1
 {
-	top:45%;
-	right: 44%;
+	position: relative;
+	top: 30%;
+	float: left;
+}
+div.head2
+{
+	position: relative;
+	top: 30%;
+	float: right;
+}
+div.head2 span
+{
+	padding: 0 30px;
+}
+
+span.head
+{
+	vertical-align: middle;
+	color: #ffffff;
 	font-size: 1.5em;
-	border: #00ffff solid 2px;
-	text-decoration: none;
-	padding: 0.3125rem 0.4375rem 0.3125rem 0.7rem;
-	border-radius: 5px;
-	background-color: #00FFFF88;
+	font-weight: 600;
 }
-.a1:hover
+.ko
 {
-	background-color: #0FBEB3;
+	height: 715px;
+	width: 800px;
+	margin: auto;
+}
+ul
+{
+	margin: 0;
+}
+li
+{
+	list-style-type: none;
+}
+.main
+{
+	background-color: aliceblue;
+	margin: 0;
+}
+i{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
 }
