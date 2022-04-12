@@ -1,71 +1,124 @@
-body
-{
-	background-image: url('../img/背景.png');
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: url('../img/bj.jpg') no-repeat;
 	background-size: 100%;
 	background-attachment: fixed;
 	margin: 0;
-	
+	background-color: #f3f7f6;
+
 }
-.body
-{
+
+.body {
 	background-color: #00000022;
 	margin: 0;
 }
-.nav
-{
+
+.nav {
 	height: 4.6875rem;
 	padding: 0 2.5em;
 
 }
-span
-{
+
+span {
 	display: inline-block;
 }
-div.head1
-{
+
+div.head1 {
 	position: relative;
 	top: 30%;
 	float: left;
 }
-div.head2
-{
+
+div.head2 {
 	position: relative;
 	top: 30%;
 	float: right;
 }
-div.head2 span
-{
+
+a {
+	text-decoration: none;
+	color: aliceblue;
+}
+
+a:hover {
+	color: aqua;
+}
+
+div.head2 span {
 	padding: 0 30px;
 }
 
-span.head
-{
+span.head {
 	vertical-align: middle;
 	color: #ffffff;
 	font-size: 1.5em;
 	font-weight: 600;
 }
-.ko
-{
+
+.ko {
 	height: 715px;
-	width: 800px;
+	width: 100%;
 	margin: auto;
 }
-ul
-{
+
+ul {
 	margin: 0;
 }
-li
-{
+
+li {
 	list-style-type: none;
 }
-.main
-{
+
+.main {
 	background-color: aliceblue;
 	margin: 0;
 }
-i{
+
+i {
 	position: absolute;
 	bottom: 0;
 	left: 50%;
+}
+
+.box1 {
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 5%;
+	height: 800px;
+	width: 70%;
+	background-color: aliceblue;
+}
+
+.box2 {
+	position: absolute;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 2%;
+	height: 800px;
+	width: 20%;
+	background-color: #f5f5f5;
+}
+
+.box-in {
+	width: 900px;
+	display: block;
+	height: 800px;
+	/* background-color: black; */
+	margin: 0 auto;
+}
+
+.box1 li {
+	float: left;
+	width: 400px;
+	height: 350px;
+	margin: 20px 20px;
+	background-color: pink;
+}
+
+.box1 ul li:last-child {
+	margin-left: 28%;
 }
