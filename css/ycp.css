@@ -4,17 +4,19 @@
 }
 
 body {
-	background: url('../img/bj.jpg') no-repeat;
+	background: url('../img/背景23456.jpg') no-repeat;
 	background-size: 100%;
+	/* height: 100%; */
 	background-attachment: fixed;
-	margin: 0;
+	/* margin: 0; */
 	background-color: #f3f7f6;
+	min-width: 1500px;
 
 }
 
 .body {
 	background-color: #00000022;
-	margin: 0;
+	/* margin: 0; */
 }
 
 .nav {
@@ -60,9 +62,33 @@ span.head {
 }
 
 .ko {
-	height: 715px;
+	height: 515px;
 	width: 100%;
 	margin: auto;
+}
+
+.ko .we {
+	width: 680px;
+	height: 300px;
+	margin: 190px auto 0;
+	/* background-color: aquamarine; */
+	animation: w 3s linear forwards;
+	overflow: hidden;
+}
+
+@keyframes w {
+	0% {
+		width: 0;
+	}
+
+	100% {
+		width: 680px;
+	}
+}
+
+.ko p {
+	font-size: 150px;
+	color: #ffffff;
 }
 
 ul {
