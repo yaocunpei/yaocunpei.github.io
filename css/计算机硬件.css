@@ -1,21 +1,32 @@
-.we1 {
-	width: 1100px;
-	height: 230px;
-	margin: 190px auto 0;
-	/* background-color: aquamarine; */
-	animation: w1 4s linear forwards;
-	overflow: hidden;
+.we span
+{
+	color: #fff8ab;
 }
-@keyframes w1 {
-	0% {
-		width: 0;
-	}
+.main
+{
+	background-color: #E8E8E8;
+	position: relative;
+}
+.box1
+{
+	display:inline-block ;
+	background-color: #ff3f19;
+	width: 63%;
+	margin: 20px 10px 10px 10% ;
+}
 
-	100% {
-		width: 1100px;
-	}
+.box2-in
+{
+	line-height: 1.5;
+	margin-top: 20px;
+	float: right;
+	width: 15%;
+	display: inline-block;
+	background-color: #ff6f2c;
+	position: sticky;
+	top:30px;
+	right: 10%;
 }
-.we1 span{
-	font-size: 150px;
-	color: #ffa04c;
+.box2-in p{
+	text-align: center;
 }
