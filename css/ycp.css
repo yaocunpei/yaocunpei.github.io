@@ -1,150 +1,87 @@
 * {
-	padding: 0;
 	margin: 0;
 }
 
 body {
-	background: url('../img/背景23456.jpg') no-repeat;
+	background-image: url(../img/惠州学院.jpg);
 	background-size: 100%;
-	/* height: 100%; */
+	background-repeat: no-repeat;
 	background-attachment: fixed;
-	/* margin: 0; */
-	background-color: #f3f7f6;
-	min-width: 1500px;
+}
 
+.body_background {
+	height: 100%;
+	width: 100%;
+	background-color: #0000005e;
 }
 
 .body {
-	background-color: #00000022;
-	/* margin: 0; */
+	display: flex;
+	height: 60px;
+	line-height: 60px;
+	font-weight: 550;
+	font-size: x-large;
 }
 
-.nav {
-	height: 4.6875rem;
-	padding: 0 2.5em;
-
+.body .d1 {
+	padding-left: 2%;
+	flex: 7;
 }
 
-span {
-	display: inline-block;
+.body .d2 {
+	flex: 1;
 }
 
-div.head1 {
-	position: relative;
-	top: 30%;
-	float: left;
+.body .d3 {
+	flex: 1;
 }
 
-div.head2 {
-	position: relative;
-	top: 30%;
-	float: right;
+.body .d4 {
+	flex: 1;
 }
 
-a {
+.body a {
 	text-decoration: none;
-	color: aliceblue;
+	color: burlywood;
 }
 
-a:hover {
-	color: aqua;
+.body a:hover {
+	color: rgb(29, 156, 206);
 }
 
-div.head2 span {
-	padding: 0 30px;
+.body_background .tubiao {
+	display: flex;
+	justify-content: center;
+	font-size: 50px;
 }
 
-span.head {
-	vertical-align: middle;
-	color: #ffffff;
-	font-size: 1.5em;
-	font-weight: 600;
+.tubiao a {
+	color: #fff;
 }
 
-.ko {
-	height: 515px;
-	width: 100%;
-	margin: auto;
-}
-
-.ko .we {
-	width: 680px;
-	height: 300px;
-	margin: 190px auto 0;
-	/* background-color: aquamarine; */
-	animation: w 3s linear forwards;
-	overflow: hidden;
+.tubiao a:hover {
+	color: antiquewhite;
 }
 
 @keyframes w {
 	0% {
-		width: 0;
+		width: 0%;
 	}
 
 	100% {
-		width: 680px;
+		width: 100%;
 	}
 }
 
-.ko p {
-	font-size: 150px;
-	color: #ffffff;
-}
-
-ul {
-	margin: 0;
-}
-
-li {
-	list-style-type: none;
-}
-
-.main {
-	background-color: aliceblue;
-	margin: 0;
-}
-
-i {
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-}
-
-.box1 {
-	display: inline-block;
-	margin-top: 30px;
-	margin-left: 5%;
-	height: 800px;
-	width: 70%;
-	background-color: aliceblue;
-}
-
-.box2 {
-	position: absolute;
-	display: inline-block;
-	margin-top: 30px;
-	margin-left: 2%;
-	height: 800px;
-	width: 20%;
-	background-color: #f5f5f5;
-}
-
-.box-in {
-	width: 900px;
-	display: block;
-	height: 800px;
-	/* background-color: black; */
-	margin: 0 auto;
-}
-
-.box1 li {
-	float: left;
-	width: 400px;
-	height: 350px;
-	margin: 20px 20px;
-	background-color: pink;
-}
-
-.box1 ul li:last-child {
-	margin-left: 28%;
+.we {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 450px;
+	margin: 0 auto 0;
+	animation: w 3s linear forwards;
+	overflow: hidden;
+	font-style: italic;
+	font-size: 100px;
+	color: #fff;
 }
