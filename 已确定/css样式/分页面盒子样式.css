@@ -27,8 +27,22 @@
 	position: sticky;
 	top:30px;
 	right: 7%;
+    color:#555666;
 }
+
 
 .Box2-in p{
 	text-align: center;
+}
+.Box2-in a {
+    text-decoration: none;
+    color:#555666;
+}
+.Box2-in a:hover {
+    color:  rgb(222, 184, 135);
+}
+.Box2-in ul
+{
+    padding-left: 15px;
+    font-size: small;
 }
