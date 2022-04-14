@@ -4,17 +4,21 @@
 }
 .main
 {
+	line-height: 1.6;
 	background-color: #fff;
 	position: relative;
 }
 .Box1
 {
+	padding-left: 0.95em;
+	padding-right: 0.95em;
 	border-left:#b0b9f0 solid 3px;
 	border-right:#b0b9f0 solid 3px;
 	display:inline-block ;
 	background-color: #fff;
 	width: 63%;
 	margin: 20px 10px 10px 10% ;
+	text-align: justify;
 }
 
 .Box2{
@@ -41,8 +45,25 @@
 .Box2-in a:hover {
     color:  rgb(222, 184, 135);
 }
-.Box2-in ul
+/* .Box2-in ul
 {
     padding-left: 15px;
     font-size: small;
 }
+.Box2-in li {
+	margin: 5px;
+	padding-left: 1.5em;
+	list-style: none;
+} */
+.Box2-in ul
+{
+	padding-left:30px;
+}
+.Box2-in ol
+{
+	padding-left:30px;
+}
+
+/* .c1 p {
+	margin: 5px;
+} */
