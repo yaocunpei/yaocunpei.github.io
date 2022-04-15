@@ -4,7 +4,7 @@
 }
 .main
 {
-	line-height: 1.6;
+	line-height: 1.7;
 	background-color: #fff;
 	position: relative;
 }
@@ -22,7 +22,6 @@
 }
 
 .Box2{
-	line-height: 1.5;
 	margin-top: 20px;
 	float:right;
 	width: 15%;

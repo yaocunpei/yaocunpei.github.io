@@ -17,15 +17,15 @@
 .boxl {
 	display: inline-block;
 	background-color: #f3f7f6;
-	margin-left: 2%;
-	margin-top: 80px;
+	margin-left: 1.5%;
+	margin-top: 40px;
 	width: 70%;
-	height: 900px;
+	/* height: 900px; */
 }
 
 .box-in {
 	background-color: #f3f7f6;
-	height: 800px;
+	/* height: 800px; */
 	width: 70%;
 	margin: 0 auto;
 
@@ -33,17 +33,18 @@
 
 .boxl li {
 	float: left;
-	width: 45%;
-	height: 350px;
+	width: 47%;
+	height: 320px;
 	background-color: #ffffff;
 	margin-top: 20px;
 	margin-left: 20px;
+	margin-bottom: 6px;
 }
 
 .boxl li div {
 	height: 70px;
 	background-color: #ffffff;
-	padding: 20px;
+	padding: 15px 18px;
 }
 
 .boxl li div span:last-child {
@@ -66,7 +67,7 @@
 
 header {
 	/* margi n-top: 20px; */
-	padding: 20px;
+	padding: 15px 18px;
 }
 
 header a {
@@ -80,27 +81,32 @@ header a:hover {
 
 .miaoshu p {
 	margin-top: 10px;
-	height: 40px;
+	height: 52px;
 	background-color: #ffffff;
 	color: #818181;
-	white-space: nowrap;
+	/* white-space: nowrap; */
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	line-height: 1.5;
 }
 
 footer {
 
 	background-color: #ffffff;
-	margin-top: 35px;
+	margin-top: 20px;
 	margin-left: 20px;
 }
 
 footer a {
 	position: relative;
+	top: 15px;
 	float: left;
 	display: block;
 	overflow: hidden;
-	padding: 3px 16px 3px 25px;
+	padding: 3px 20px 3px 20px;
 	border: 2px solid;
 	font-size: .9em;
 	line-height: 2;
@@ -111,7 +117,7 @@ footer a {
 
 footer a::after {
 	font-family: 'icomoon';
-	content: '';
+	/* content: ''; */
 	margin-left: 15px;
 }
 
@@ -124,10 +130,10 @@ a:hover {
 	display: inline-block;
 	background-color: #f3f7f6;
 	margin-left: -3%;
-	margin-top: 100px;
+	margin-top: 60px;
 	margin-right: 5%;
 	width: 20%;
-	height: 800px;
+
 }
 
 .boxr div {

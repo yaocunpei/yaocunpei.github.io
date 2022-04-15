@@ -79,7 +79,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 600px;
+	height: 630px;
 	margin: 0 auto 0;
 	animation: w 3s linear forwards;
 	overflow: hidden;
